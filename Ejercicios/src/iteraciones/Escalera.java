@@ -6,7 +6,7 @@ public class Escalera {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("BIENVENIDOS AL PROGRAMA ESCALERA!");
-        System.out.println("Ingrese la cantidad de pisos que va a tener su escalera: ");
+        System.out.print("Ingrese la cantidad de pisos que va a tener su escalera: ");
         int pisos = sc.nextInt();
         int i = 1;
         int j = 1;
@@ -25,9 +25,9 @@ public class Escalera {
                 } else{
                     System.out.println(stair + " Planta Baja");
                 }
-            aux--;
-            i++;
-            j += i;
+            aux--; // aux= Numero de piso de mayor a menor
+            i++; // i = Cantidad de filas
+            j += i; // j = Cantidad de espacios por fila
         }
     }
 }
