@@ -1,2 +1,8 @@
-1. [Ejercicios Algoritmos](https://github.com/tomii07/ej-java-111mil/tree/master/Ejercicios)
-2. [Apuntes de las Clases](https://github.com/tomii07/ej-java-111mil/tree/master/ApuntesClase)
+111mil
+======
+
+## INDICE:
+
+
+1. [Ejercicios Algoritmos](Ejercicios/src/)
+2. [Apuntes de las Clases](ApuntesClase/src/)
