@@ -3,8 +3,6 @@ Ejercicios Java - 111mil
 
 ## Secciones:
 
-I. [Datos](datos/)
-
-II. [Decisiones](decisiones/)
-
-III. [Iteraciones](iteraciones)
+1. [Datos](datos/)
+1. [Decisiones](decisiones/)
+1. [Iteraciones](iteraciones)
