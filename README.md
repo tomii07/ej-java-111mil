@@ -1,7 +1,7 @@
 Ejercicios Java - 111mil
 ========================
 
-# Secciones
+## Secciones:
 
 1. [Apuntes Clase](ApuntesClase/src/)
 2. [Ejercicios Algoritmos](Ejercicios/src/)
