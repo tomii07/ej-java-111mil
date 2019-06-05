@@ -20,5 +20,6 @@ public class Triangulos {
         } else{
             System.out.println("Triangulo isosceles");
         }
+        nro.close();
     }
 }

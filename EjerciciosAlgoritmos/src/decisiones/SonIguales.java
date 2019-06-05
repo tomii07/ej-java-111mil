@@ -15,5 +15,6 @@ public class SonIguales {
             System.out.println("Son iguales!");
         else
             System.out.println("Son distintos...");
+        nro.close();
     }
 }

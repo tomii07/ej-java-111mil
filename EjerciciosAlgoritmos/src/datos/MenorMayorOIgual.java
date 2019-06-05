@@ -17,5 +17,6 @@ public class MenorMayorOIgual {
         } else{
             System.out.println(a + " es igual a " + b);
         }
+        nro.close();
     }
 }

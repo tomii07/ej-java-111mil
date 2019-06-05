@@ -14,19 +14,28 @@ public class BordeDelCuadrado {
         int alto = y + 2;
         int ax = x;
         int altoy = alto;
-        char a = '+';
-        char b = '-';
-        char c = '|';
+        char b = '─';
+        char c = '│';
         String spaces = " ";
 
-        while(alto != 0){
-                if(alto == altoy || alto == 1) {
-                    System.out.print(a);
+        if(y < 1 || x < 1){
+            System.out.println("Numeros ingresados invalidos...");
+        }else {
+            while(alto != 0){
+                if(alto == altoy) {
+                    System.out.print("┌");
                     while (x != 0) {
                         System.out.print(b);
                         x--;
                     }
-                    System.out.print(a);
+                    System.out.print("┐");
+                } else if(alto == 1){
+                    System.out.print("└");
+                    while(x != 0){
+                        System.out.print(b);
+                        x--;
+                    }
+                    System.out.print("┘");
                 } else{
                     System.out.print(c);
                     while(x != 0){
@@ -35,9 +44,11 @@ public class BordeDelCuadrado {
                     }
                     System.out.print(c);
                 }
-            x = ax;
-            System.out.println(" ");
-            alto--;
+                x = ax;
+                System.out.println(" ");
+                alto--;
+            }
         }
+        sc.close();
     }
 }

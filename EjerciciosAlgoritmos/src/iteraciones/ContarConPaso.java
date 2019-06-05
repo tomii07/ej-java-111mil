@@ -15,5 +15,6 @@ public class ContarConPaso {
             System.out.println(comienzo);
             comienzo = comienzo + nro;
         }
+        paso.close();
     }
 }

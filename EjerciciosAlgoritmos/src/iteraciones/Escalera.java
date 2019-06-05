@@ -15,19 +15,24 @@ public class Escalera {
         String spaces = " ";
         String stair = "\\";
 
-        while(pisos >= i){
-                while(j != 0){
+        if(pisos < 1) {
+            System.out.println("Numero ingresado invalido...");
+        }
+        else{
+            while(pisos >= i) {
+                while (j != 0) {
                     System.out.print(spaces + "");
                     j--;
                 }
-                if(aux > 0) {
+                if (aux > 0) {
                     System.out.println(stair + " Piso N° " + aux);
-                } else{
+                } else {
                     System.out.println(stair + " Planta Baja");
                 }
-            aux--; // aux= Numero de piso de mayor a menor
-            i++; // i = Cantidad de filas
-            j += i; // j = Cantidad de espacios por fila
+                aux--; // aux= Numero de piso de mayor a menor
+                i++; // i = Cantidad de filas
+                j += i; // j = Cantidad de espacios por fila
+            }
         }
     }
 }

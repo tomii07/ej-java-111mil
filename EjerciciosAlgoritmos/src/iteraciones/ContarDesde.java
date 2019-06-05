@@ -11,5 +11,6 @@ public class ContarDesde {
             System.out.println(desde);
             desde++;
         }
+        sc.close();
     }
 }

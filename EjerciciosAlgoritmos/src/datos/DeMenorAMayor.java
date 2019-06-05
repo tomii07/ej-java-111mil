@@ -13,10 +13,20 @@ public class DeMenorAMayor {
         System.out.println("Ingrese un numero: ");
         int c = x.nextInt();
 
-        //COMPLETAR!!!
-        //Falta realizar un algoritmo tal que intercambie los valores de a b c cuando corresponda para que queden de la forma a < b < c
-
-        System.out.println(a + " " + b + " " + c);
+        while(b < a || c < b) {
+            if (b < a) {
+                aux = b;
+                b = a;
+                a = aux;
+            }
+            if (c < b) {
+                aux = c;
+                c = b;
+                b = aux;
+            }
+        }
+        System.out.println("De menor a mayor: " + a + " " + b + " " + c);
+        x.close();
     }
 }
 

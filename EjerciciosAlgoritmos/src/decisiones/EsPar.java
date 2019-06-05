@@ -14,5 +14,6 @@ public class EsPar {
         } else{
             System.out.println(a + " es impar");
         }
+        nro.close();
     }
 }

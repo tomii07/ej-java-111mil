@@ -17,16 +17,21 @@ public class Cuadrado {
         // y = cantidad de filas
         // x = cantidad de # por fila
 
-        if(y <= 0 || x <= 0) System.out.println("Numeros invalidos...");
-        else System.out.println("Su cuadrado es de " + y + "x" + x + ": ");
-        while(y != 0){
-            while(x != 0){
-                System.out.print(cuadrado);
-                x--;
-            }
-            x = aux;
-            y--;
-            System.out.println(" ");
+        if(y <= 0 || x <= 0) {
+            System.out.println("Numeros invalidos...");
         }
+        else {
+            System.out.println("Su cuadrado es de " + y + "x" + x + ": ");
+            while (y != 0) {
+                while (x != 0) {
+                    System.out.print(cuadrado);
+                    x--;
+                }
+                x = aux;
+                y--;
+                System.out.println(" ");
+            }
+        }
+        sc.close();
     }
 }
