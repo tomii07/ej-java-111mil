@@ -14,6 +14,9 @@ public class Circulo {
 
         while(y >= -r){
             while(x <= r){
+                // Si pongo " <= " imprime los puntos (x,0) y (0,y), es decir, tambien impreme los ejes coordenados.
+                // En cambio si pongo solo " < " no imprime dichos puntos.
+                // No sabria decidir que es lo que estaria bien CONCEPTUALMENTE para poner en la condicion.
                 if((x*x) + (y*y) <= r*r ){
                     System.out.print("#");
                 } else {
