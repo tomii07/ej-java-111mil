@@ -10,7 +10,6 @@ public class Cuadrado {
         int alto = sc.nextInt();
         System.out.print("Ingrese ancho: ");
         int ancho = sc.nextInt();
-
         int aux = ancho;
         char cuadrado = '#';
 

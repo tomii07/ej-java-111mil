@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Circulo {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Ingrese un radio para el circulo: ");
         int r = sc.nextInt();
 
