@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class ContarConPaso {
     public static void main(String[] args){
-        Scanner paso = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int comienzo = 1;
+        int paso = 1;
 
         System.out.println("Ingrese un numero para contar con paso: ");
-        int nro = paso.nextInt();
+        int nro = sc.nextInt();
 
         while(nro != 0){
-            System.out.println(comienzo);
-            comienzo = comienzo + nro;
+            System.out.println(paso);
+            paso += nro;
         }
-        paso.close();
+        sc.close();
     }
 }

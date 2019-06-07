@@ -7,28 +7,28 @@ public class Cuadrado {
         Scanner sc = new Scanner(System.in);
         System.out.println("BIENVENIDO AL PROGRAMA DEL CUADRADO!");
         System.out.print("Ingrese alto: ");
-        int y = sc.nextInt();
+        int alto = sc.nextInt();
         System.out.print("Ingrese ancho: ");
-        int x = sc.nextInt();
+        int ancho = sc.nextInt();
 
-        int aux = x;
+        int aux = ancho;
         char cuadrado = '#';
 
-        // y = cantidad de filas
-        // x = cantidad de # por fila
+        // alto = cantidad de filas
+        // ancho = cantidad de # por fila
 
-        if(y <= 0 || x <= 0) {
+        if(alto <= 0 || ancho <= 0) {
             System.out.println("Numeros invalidos...");
         }
         else {
-            System.out.println("Su cuadrado es de " + y + "x" + x + ": ");
-            while (y != 0) {
-                while (x != 0) {
+            System.out.println("Su cuadrado es de " + alto + "x" + ancho + ": ");
+            while (alto != 0) {
+                while (ancho != 0) {
                     System.out.print(cuadrado);
-                    x--;
+                    ancho -= 1;
                 }
-                x = aux;
-                y--;
+                ancho = aux;
+                alto -= 1;
                 System.out.println(" ");
             }
         }

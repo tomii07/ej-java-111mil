@@ -22,7 +22,7 @@ public class Escalera {
             while(pisos >= i) {
                 while (j != 0) {
                     System.out.print(spaces + "");
-                    j--;
+                    j -= 1;
                 }
                 if (aux > 0) {
                     System.out.println(stair + " Piso N° " + aux);

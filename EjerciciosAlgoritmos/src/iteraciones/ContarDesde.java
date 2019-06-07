@@ -9,7 +9,7 @@ public class ContarDesde {
         int desde = sc.nextInt();
         while(desde == desde){
             System.out.println(desde);
-            desde++;
+            desde += 1;
         }
         sc.close();
     }

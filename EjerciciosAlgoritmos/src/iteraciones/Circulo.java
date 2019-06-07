@@ -9,10 +9,10 @@ public class Circulo {
         System.out.print("Ingrese un radio para el circulo: ");
         int r = sc.nextInt();
 
-        int y = r;
+        int y = -r;
         int x = -r;
 
-        while(y >= -r){
+        while(y <= r){
             while(x <= r){
                 // Si pongo " <= " imprime los puntos (x,0) y (0,y), es decir,  impreme los ejes coordenados.
                 // En cambio si pongo solo " < " no imprime dichos puntos.
@@ -22,10 +22,10 @@ public class Circulo {
                 } else {
                     System.out.print(" ");
                 }
-                x++;
+                x += 1;
             }
             System.out.println(" ");
-            y--;
+            y += 1;
             x = -r;
         }
         sc.close();

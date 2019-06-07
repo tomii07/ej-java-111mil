@@ -5,7 +5,7 @@ public class Contar {
         int a = 1;
         while(a != 0){
             System.out.print(a);
-            a++;
+            a+=1;
         }
     }
 }
