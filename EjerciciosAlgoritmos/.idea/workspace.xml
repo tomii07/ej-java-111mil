@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="561e181c-d324-41b2-900a-ebf2b1b5d9f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/iteraciones/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iteraciones/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iteraciones/Contar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iteraciones/Contar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iteraciones/ContarConPaso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iteraciones/ContarConPaso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iteraciones/ContarDesde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iteraciones/ContarDesde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iteraciones/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iteraciones/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iteraciones/Escalera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iteraciones/Escalera.java" afterDir="false" />
-    </list>
+    <list default="true" id="561e181c-d324-41b2-900a-ebf2b1b5d9f8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +17,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/iteraciones/Circulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="462">
               <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
             </state>
           </provider>
@@ -324,7 +317,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iteraciones/Circulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="462">
           <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
