@@ -12,11 +12,14 @@ public class BordeDelCuadrado {
         int x = sc.nextInt();
 
         int alto = y + 2;
+        int ancho = x + 2;
         int ax = x;
         int altoy = alto;
         char b = '─';
         char c = '│';
         String spaces = " ";
+
+        System.out.println("El borde del cuadrado va a ser de: " + x + "x" + y);
 
         if(y < 1 || x < 1){
             System.out.println("Numeros ingresados invalidos...");
