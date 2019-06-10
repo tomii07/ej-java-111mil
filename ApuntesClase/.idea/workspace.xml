@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ab78ee-44cc-44f8-abd9-de594c9dd075" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/BordeDelCuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/BordeDelCuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Escalera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Escalera.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,40 +80,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ApuntesClase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApuntesClase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApuntesClase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApuntesClase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApuntesClase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApuntesClase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Apuntes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApuntesClase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApuntesClase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="prueba" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosAlgoritmos" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">

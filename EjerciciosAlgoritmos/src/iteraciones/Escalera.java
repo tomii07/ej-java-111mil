@@ -30,7 +30,7 @@ public class Escalera {
                     System.out.println(stair + " Planta Baja");
                 }
                 aux--; // aux= Numero de piso de mayor a menor
-                i++; // i = Cantidad de filas
+                i += 1; // i = Cantidad de filas
                 j += i; // j = Cantidad de espacios por fila
             }
         }

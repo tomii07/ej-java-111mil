@@ -29,27 +29,27 @@ public class BordeDelCuadrado {
                     System.out.print("┌");
                     while (x != 0) {
                         System.out.print(b);
-                        x--;
+                        x -= 1;
                     }
                     System.out.print("┐");
                 } else if(alto == 1){
                     System.out.print("└");
                     while(x != 0){
                         System.out.print(b);
-                        x--;
+                        x -= 1;
                     }
                     System.out.print("┘");
                 } else{
                     System.out.print(c);
                     while(x != 0){
                         System.out.print(spaces);
-                        x--;
+                        x -= 1;
                     }
                     System.out.print(c);
                 }
                 x = ax;
                 System.out.println(" ");
-                alto--;
+                alto -= 1;
             }
         }
         sc.close();

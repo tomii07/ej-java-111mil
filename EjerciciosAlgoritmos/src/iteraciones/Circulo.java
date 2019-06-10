@@ -1,7 +1,7 @@
 package iteraciones;
 
 import java.util.Scanner;
-
+import funciones.Formulas;
 public class Circulo {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Circulo {
                 // (x*x) + (y*y) == (r*r) --->  IMPRIME LOS PUNTOS FRONTERA-VERTICES.
                 // (x*x) + (y*y) < (r*r)  ---> IMPRIME EL CIRCULO SIN LOS EJES COORDERNADOS.
                 // (x*x) + (y*y) <= (r*r) ---> IMPRIME EL CIRCULO CON LOS EJES COORDENADOS.
-                if((x*x) + (y*y) <= r*r ){
+                if(Formulas.perteneceAlCirculo(x,y,r)){
                     System.out.print("#");
                 } else {
                     System.out.print(" ");
