@@ -1,5 +1,7 @@
 package iteraciones;
 
+import funciones.Formulas;
+
 import java.util.Scanner;
 
 public class ContarConPaso {
@@ -9,7 +11,7 @@ public class ContarConPaso {
         System.out.println("Ingrese un numero para contar con paso: ");
         int nro = sc.nextInt();
 
-        while(nro != 0){
+        while(!(Formulas.esIgual(nro,0))){
             System.out.println(paso);
             paso += nro;
         }

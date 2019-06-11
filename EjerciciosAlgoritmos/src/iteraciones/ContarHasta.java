@@ -1,5 +1,7 @@
 package iteraciones;
 
+import funciones.Formulas;
+
 import java.util.Scanner;
 
 public class ContarHasta {
@@ -8,7 +10,7 @@ public class ContarHasta {
         int comienzo = 1;
         System.out.println("Ingrese un numero hasta donde contar: ");
         int hasta = sc.nextInt();
-        while (comienzo <= hasta) {
+        while (Formulas.esMenor(comienzo,hasta) || Formulas.esIgual(comienzo,hasta)) {
             System.out.println(comienzo);
             comienzo++;
         }

@@ -1,5 +1,7 @@
 package datos;
 
+import funciones.Formulas;
+
 import java.util.Scanner;
 
 public class MenorMayorOIgual {
@@ -10,13 +12,9 @@ public class MenorMayorOIgual {
         System.out.println("Ingrese un numero: ");
         int b = nro.nextInt();
 
-        if(a > b){
-            System.out.println(a + " es mayor que " + b);
-        } else if(b > a){
-            System.out.println(a + " es menor que " + b);
-        } else{
-            System.out.println(a + " es igual a " + b);
-        }
+        if(Formulas.esMayor(a,b))System.out.println(a + " es mayor que " + b);
+        if(Formulas.esMenor(a,b))System.out.println(a + " es menor que " + b);
+        if(Formulas.esIgual(a,b))System.out.println(a + " es igual a " + b);
         nro.close();
     }
 }

@@ -1,5 +1,7 @@
 package datos;
 
+import funciones.Formulas;
+
 import java.util.Scanner;
 
 public class DeMenorAMayor {
@@ -13,13 +15,13 @@ public class DeMenorAMayor {
         System.out.println("Ingrese un numero: ");
         int c = x.nextInt();
 
-        while(b < a || c < b) {
-            if (b < a) {
+        while(Formulas.esMenor(b,a) || Formulas.esMenor(c,b)) {
+            if (Formulas.esMenor(b,a)) {
                 aux = b;
                 b = a;
                 a = aux;
             }
-            if (c < b) {
+            if (Formulas.esMenor(c,b)) {
                 aux = c;
                 c = b;
                 b = aux;

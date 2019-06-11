@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3873ecf-538c-491c-a270-46299a3241b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ApuntesClase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApuntesClase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/BordeDelCuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/BordeDelCuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Escalera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjerciciosAlgoritmos/src/iteraciones/Escalera.java" afterDir="false" />
-    </list>
+    <list default="true" id="e3873ecf-538c-491c-a270-46299a3241b3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ejercicios/Reloj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="63">
+              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -66,34 +60,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Problemas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problemas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problemas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problemas" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problemas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problemas" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicios" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosAlgoritmos" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -143,7 +118,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -176,8 +150,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Ejercicios/Reloj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="63">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>

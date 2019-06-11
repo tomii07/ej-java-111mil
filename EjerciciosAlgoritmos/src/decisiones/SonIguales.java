@@ -1,7 +1,7 @@
 package decisiones;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
+import funciones.Formulas;
 
 public class SonIguales {
     public static void main(String[] args){
@@ -11,7 +11,7 @@ public class SonIguales {
         System.out.println("Ingrese un numero: ");
         int b = nro.nextInt();
 
-        if(a == b)
+        if(Formulas.esIgual(a,b))
             System.out.println("Son iguales!");
         else
             System.out.println("Son distintos...");
