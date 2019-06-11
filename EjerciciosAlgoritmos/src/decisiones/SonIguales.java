@@ -1,7 +1,7 @@
 package decisiones;
 
 import java.util.Scanner;
-import funciones.Formulas;
+import formulas.Formulas;
 
 public class SonIguales {
     public static void main(String[] args){

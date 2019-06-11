@@ -1,7 +1,7 @@
 package decisiones;
 
 import java.util.Scanner;
-import funciones.Formulas;
+import formulas.Formulas;
 public class EsPar {
     public static void main(String[] args){
         Scanner nro = new Scanner(System.in);

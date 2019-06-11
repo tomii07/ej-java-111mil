@@ -1,7 +1,7 @@
 package iteraciones;
 
 import java.util.Scanner;
-import funciones.Formulas;
+import formulas.Formulas;
 public class Circulo {
     private static void circleDraw(int x, int y, int r){
         while (y <= r) {

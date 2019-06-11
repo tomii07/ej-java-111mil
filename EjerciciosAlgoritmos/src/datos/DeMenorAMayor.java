@@ -1,6 +1,6 @@
 package datos;
 
-import funciones.Formulas;
+import formulas.Formulas;
 
 import java.util.Scanner;
 

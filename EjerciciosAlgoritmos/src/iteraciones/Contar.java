@@ -1,6 +1,6 @@
 package iteraciones;
 
-import funciones.Formulas;
+import formulas.Formulas;
 
 public class Contar {
     public static void main(String[] args){

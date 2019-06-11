@@ -1,7 +1,7 @@
 package iteraciones;
 
 import java.util.Scanner;
-import funciones.Formulas;
+import formulas.Formulas;
 
 public class BordeDelCuadrado {
     private static void edgeDraw(int alto, int altoy, int x, char b, char c, String spaces, int ax){

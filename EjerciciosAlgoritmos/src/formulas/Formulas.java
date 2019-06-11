@@ -1,4 +1,4 @@
-package funciones;
+package formulas;
 
 public class Formulas {
     public static boolean perteneceAlCirculo(int x, int y, int t){
