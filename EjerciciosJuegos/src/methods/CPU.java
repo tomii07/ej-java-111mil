@@ -7,4 +7,7 @@ public class CPU {
         else if(rand == 1){return "papel";}
         else {return "tijera";}
     }
+    public static int numAleatorio(){
+        return (int) ((Math.random() * 100) + 1);
+    }
 }
