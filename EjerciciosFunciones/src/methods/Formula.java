@@ -1,4 +1,4 @@
-package formulas;
+package methods;
 
 public class Formula {
     public static int conver_CaF(int c){

@@ -1,6 +1,6 @@
 package numeros;
 
-import formulas.Formula;
+import methods.Formula;
 import java.util.Scanner;
 
 public class AnioBiciesto {
