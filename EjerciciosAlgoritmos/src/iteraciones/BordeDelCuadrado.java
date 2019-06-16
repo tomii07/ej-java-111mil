@@ -52,7 +52,7 @@ public class BordeDelCuadrado {
         if(Formulas.esMenor(x,1) || Formulas.esMenor(y,1))
             System.out.println("Numeros ingresados invalidos...");
         else
-            System.out.println("El borde del cuadrado va a ser de: " + x + "x" + y);
+            System.out.println("El borde del cuadrado va a ser de: " + y + "x" + x);
             edgeDraw(alto,altoy,x,b,c,spaces,ax);
         sc.close();
     }
