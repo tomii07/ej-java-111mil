@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Cuadrado {
     private static void sqreDraw(int alto, int ancho, char cuadrado, int aux) {
         System.out.println("Su cuadrado es de " + alto + "x" + ancho + ": ");
-        while (!(Formulas.esIgual(alto, 0))) {
-            while (!(Formulas.esIgual(ancho, 0))) {
+        while (!(Formulas.sonIguales(alto, 0))) {
+            while (!(Formulas.sonIguales(ancho, 0))) {
                 System.out.print(cuadrado);
                 ancho -= 1;
             }

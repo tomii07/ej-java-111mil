@@ -5,24 +5,24 @@ import formulas.Formulas;
 
 public class BordeDelCuadrado {
     private static void edgeDraw(int alto, int altoy, int x, char b, char c, String spaces, int ax){
-        while(!(Formulas.esIgual(alto,0))){
-            if(Formulas.esIgual(alto,altoy)) {
+        while(!(Formulas.sonIguales(alto,0))){
+            if(Formulas.sonIguales(alto,altoy)) {
                 System.out.print("┌");
-                while (!(Formulas.esIgual(x,0))) {
+                while (!(Formulas.sonIguales(x,0))) {
                     System.out.print(b);
                     x -= 1;
                 }
                 System.out.print("┐");
-            } else if((Formulas.esIgual(alto,1))){
+            } else if((Formulas.sonIguales(alto,1))){
                 System.out.print("└");
-                while(!(Formulas.esIgual(x,0))){
+                while(!(Formulas.sonIguales(x,0))){
                     System.out.print(b);
                     x -= 1;
                 }
                 System.out.print("┘");
             } else{
                 System.out.print(c);
-                while(!(Formulas.esIgual(x,0))){
+                while(!(Formulas.sonIguales(x,0))){
                     System.out.print(spaces);
                     x -= 1;
                 }

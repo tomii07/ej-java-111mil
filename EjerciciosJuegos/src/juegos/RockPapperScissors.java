@@ -55,7 +55,7 @@ public class RockPapperScissors {
                 System.out.println("\n" + Game.resultado(cpu1, cpu2) + "\n");
                 System.out.println("CPU1 GANA\n");
                 i += 1;
-            } else if(j > i){
+            } else {
                 System.out.println("\n" + Game.resultado(cpu1, cpu2) + "\n");
                 System.out.println("CPU2 GANA\n");
                 j += 1;
@@ -67,7 +67,7 @@ public class RockPapperScissors {
         if(i > j){
             System.out.println("CPU1 ES EL GANADOR FINAL!");
             System.out.println("CPU2 PIERDE...");
-        } else{
+        } else if(j > i){
             System.out.println("CPU2 ES EL GANADOR FINAL!");
             System.out.println("CPU1 PIERDE...");
         }

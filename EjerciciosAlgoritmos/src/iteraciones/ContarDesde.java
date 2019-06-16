@@ -9,7 +9,7 @@ public class ContarDesde {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un numero de partida para contar: ");
         int desde = sc.nextInt();
-        while(Formulas.esIgual(desde,desde)){
+        while(Formulas.sonIguales(desde,desde)){
             System.out.println(desde);
             desde += 1;
         }

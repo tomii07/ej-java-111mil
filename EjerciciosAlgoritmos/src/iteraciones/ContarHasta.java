@@ -10,7 +10,7 @@ public class ContarHasta {
         int comienzo = 1;
         System.out.println("Ingrese un numero hasta donde contar: ");
         int hasta = sc.nextInt();
-        while (Formulas.esMenor(comienzo,hasta) || Formulas.esIgual(comienzo,hasta)) {
+        while (Formulas.esMenor(comienzo,hasta) || Formulas.sonIguales(comienzo,hasta)) {
             System.out.println(comienzo);
             comienzo++;
         }

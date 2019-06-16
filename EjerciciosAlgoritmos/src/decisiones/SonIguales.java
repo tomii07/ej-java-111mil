@@ -11,7 +11,7 @@ public class SonIguales {
         System.out.println("Ingrese un numero: ");
         int b = nro.nextInt();
 
-        if(Formulas.esIgual(a,b))
+        if(Formulas.sonIguales(a,b))
             System.out.println("Son iguales!");
         else
             System.out.println("Son distintos...");

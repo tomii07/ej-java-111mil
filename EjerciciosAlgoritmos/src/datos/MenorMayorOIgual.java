@@ -14,7 +14,7 @@ public class MenorMayorOIgual {
 
         if(Formulas.esMayor(a,b))System.out.println(a + " es mayor que " + b);
         if(Formulas.esMenor(a,b))System.out.println(a + " es menor que " + b);
-        if(Formulas.esIgual(a,b))System.out.println(a + " es igual a " + b);
+        if(Formulas.sonIguales(a,b))System.out.println(a + " es igual a " + b);
         nro.close();
     }
 }
