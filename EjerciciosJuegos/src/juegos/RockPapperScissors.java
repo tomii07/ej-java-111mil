@@ -31,6 +31,46 @@ public class RockPapperScissors {
             System.out.println("----------------------------------------------");
             k -= 1;
         }while(k != 0);
+        System.out.println("MARCADOR FINAL: USER[" + i + "] CPU[" + j + "]");
+        if(i > j){
+            System.out.println("TU ERES EL GANADOR FINAL!");
+            System.out.println("CPU PIERDE...");
+        } else if(j > i){
+            System.out.println("CPU ES EL GANADOR FINAL!");
+            System.out.println("TU PIERDES...\n\nlooser :)");
+        }
+    }
+    private static void cpuVsCpu(int partidas){
+        int i = 0;
+        int j = 0;
+        do {
+            String cpu1 = CPU.cpu();
+            String cpu2 = CPU.cpu();
+            System.out.println("MARCADOR: CPU1[" + i + "] CPU2[" + j + "]");
+            System.out.println("Eleccion CPU1: " + cpu1);
+            System.out.println("Eleccion CPU2: " + cpu2);
+            if (Game.tie(cpu1, cpu2)) {
+                System.out.println("Empate");
+            } else if (Game.game(cpu1, cpu2)) {
+                System.out.println("\n" + Game.resultado(cpu1, cpu2) + "\n");
+                System.out.println("CPU1 GANA\n");
+                i += 1;
+            } else if(j > i){
+                System.out.println("\n" + Game.resultado(cpu1, cpu2) + "\n");
+                System.out.println("CPU2 GANA\n");
+                j += 1;
+            }
+            System.out.println("----------------------------------------------");
+            partidas -= 1;
+        }while(partidas != 0);
+        System.out.println("MARCADOR FINAL: CPU1[" + i + "] CPU2[" + j + "]");
+        if(i > j){
+            System.out.println("CPU1 ES EL GANADOR FINAL!");
+            System.out.println("CPU2 PIERDE...");
+        } else{
+            System.out.println("CPU2 ES EL GANADOR FINAL!");
+            System.out.println("CPU1 PIERDE...");
+        }
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -56,9 +96,9 @@ public class RockPapperScissors {
                     System.out.print("\n");
                     break;
                 case 3:
-                    System.out.println("Ingrese la cantidad de partidas que van a jugar las maquinas: ");
+                    System.out.print("Ingrese la cantidad de partidas que van a jugar las maquinas: ");
                     int partidas = sc.nextInt();
-                    System.out.println("Codigo a desarrollar...");
+                    cpuVsCpu(partidas);
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
