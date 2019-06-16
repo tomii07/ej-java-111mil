@@ -38,6 +38,9 @@ public class NumberGuess {
             }
             System.out.print("Desea jugar de nuevo?[S/N]");
             rta = sc.next();
+            if(rta.equals("s") || rta.equals("S")){
+                numAl = CPU.numAleatorio();
+            }
         } while(rta.equals("S") || rta.equals("s"));
     }
 }
