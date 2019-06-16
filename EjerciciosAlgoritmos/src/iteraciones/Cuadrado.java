@@ -4,7 +4,7 @@ import formulas.Formulas;
 import java.util.Scanner;
 
 public class Cuadrado {
-    private static void sqreDraw(int alto, int ancho, char cuadrado, int aux) {
+    private static void sqreDraw(int alto, int ancho, String cuadrado, int aux) {
         System.out.println("Su cuadrado es de " + alto + "x" + ancho + ": ");
         while (!(Formulas.sonIguales(alto, 0))) {
             while (!(Formulas.sonIguales(ancho, 0))) {
@@ -24,7 +24,7 @@ public class Cuadrado {
         System.out.print("Ingrese ancho: ");
         int ancho = sc.nextInt();
         int aux = ancho;
-        char cuadrado = '#';
+        String cuadrado = "##";
             // alto = cantidad de filas
             // ancho = cantidad de # por fila
 
