@@ -27,7 +27,6 @@ public class RockPapperScissors {
                 System.out.println("YO GANO!\n");
                 j += 1;
             }
-            
             System.out.println("----------------------------------------------");
             k -= 1;
         }while(k != 0);
