@@ -22,7 +22,7 @@ public class RockPapperScissors {
             } else if (Game.game(user, cpu)) {
                 System.out.println("\n" + Game.resultado(user, cpu) + "\n");
                 System.out.println("TU GANAS!\n");
-                i += 1;d
+                i += 1;
             } else {
                 System.out.println("\n" + Game.resultado(user, cpu) + "\n");
                 System.out.println("YO GANO!\n");
