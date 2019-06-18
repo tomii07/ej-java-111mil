@@ -3,7 +3,6 @@ package juegos;
 import methods.CPU;
 import methods.Game;
 import methods.Usuario;
-
 import java.util.Scanner;
 
 public class RockPapperScissors {
@@ -34,10 +33,10 @@ public class RockPapperScissors {
         System.out.println("MARCADOR FINAL: USER[" + i + "] CPU[" + j + "]");
         if(i > j){
             System.out.println("TU ERES EL GANADOR FINAL!");
-            System.out.println("CPU PIERDE...");
+            System.out.println("CPU PIERDE EL JUEGO...");
         } else if(j > i){
             System.out.println("CPU ES EL GANADOR FINAL!");
-            System.out.println("TU PIERDES...\n\nlooser :)");
+            System.out.println("TU PIERDES EL JUEGO...\n\nlooser :)");
         }
     }
     private static void cpuVsCpu(int partidas){
